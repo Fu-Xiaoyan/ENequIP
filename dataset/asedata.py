@@ -89,7 +89,7 @@ class AtomicData(Data):
 
         default_args = set(['numbers', 'pos', 'pbc', 'r_max', 'positions', 'cell'])
         # the keys that are duplicated in kwargs are removed from the include_keys
-        include_keys = ['magmoms', 'forces', 'energy', 'energies', 'charges', 'dipole', 'free_energy', 'initial_magmoms', 'vaccum', 'fermi']
+        include_keys = [ 'forces', 'energy', 'energies', 'charges', 'dipole', 'free_energy', 'initial_magmoms', 'vaccum', 'fermi']
 
         key_mapping = {'forces': 'forces', 'energy': 'total_energy', 'initial_magmoms': 'E_field'}
 
