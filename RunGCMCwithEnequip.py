@@ -41,7 +41,7 @@ def main(UvsRHE, index, save_dir):
             atom.tag = 0
 
     potential_config = dict(
-        UvsRHE=UvsRHE,
+        URHE=UvsRHE,
         pH=1,
         capacitance=20,   # uF/cm-2
         dielectric_constant=3,  # dielectric constant of water near a surface is 2 (DOI: 10.1126/science.aat4191)
